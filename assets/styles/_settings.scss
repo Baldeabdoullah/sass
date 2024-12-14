@@ -1,0 +1,15 @@
+$color1: rgb(224, 161, 172);
+$color2:orange;
+$color3: cyan;
+$white: rgb(239, 237, 237);
+$black: rgb(35, 24, 24);
+//mixins
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: $color2;
+}
